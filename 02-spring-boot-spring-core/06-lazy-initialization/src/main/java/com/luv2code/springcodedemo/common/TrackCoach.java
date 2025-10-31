@@ -1,0 +1,17 @@
+package com.luv2code.springcodedemo.common;
+
+import org.springframework.context.annotation.Lazy;
+import org.springframework.stereotype.Component;
+
+@Component
+@Lazy
+public class TrackCoach implements CoachInterface{
+
+    public TrackCoach() {
+        System.out.println("In constructor: " + getClass().getSimpleName());
+    }
+    @Override
+    public String getDailyWorkout() {
+        return "Run a hard 5k!";
+    }
+}
