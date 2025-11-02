@@ -1,0 +1,14 @@
+package com.luv2code.springcodedemo.config;
+
+import com.luv2code.springcodedemo.common.CoachInterface;
+import com.luv2code.springcodedemo.common.SwimCoach;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class SportConfig {
+    @Bean
+    public CoachInterface swimCoach(){
+        return new SwimCoach();
+    }
+}
