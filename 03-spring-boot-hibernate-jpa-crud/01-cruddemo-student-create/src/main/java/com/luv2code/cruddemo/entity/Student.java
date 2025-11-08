@@ -67,7 +67,6 @@ public class Student {
     }
 
     // define toString() method
-
     @Override
     public String toString() {
         return "Student{" +
