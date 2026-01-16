@@ -49,6 +49,7 @@ public class InstructorDetail {
         this.youtubeChannel = youtubeChannel;
     }
 
+    @Override
     public String toString(){
         return "InstructorDetail{" +
                 "id=" + id +
