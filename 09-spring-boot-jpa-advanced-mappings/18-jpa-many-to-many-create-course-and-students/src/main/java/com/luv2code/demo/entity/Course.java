@@ -74,7 +74,7 @@ public class Course {
 
         reviews.add(review);
     }
-
+    
     @Override
     public String toString() {
         return "Course{" +
